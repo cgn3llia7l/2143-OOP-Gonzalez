@@ -1,0 +1,109 @@
+ # Clara Gonzalez
+ 
+ ## 1: Definitions
+ 
+= ### Answer 1
+ 
+ ```python
+ class Employee:``` class```
+ def _init_(self,name,salary):```constructor```
+ ```method``` def displayCount (self):
+ ``method`` def displayEmployee(self):
+ ```attributes: datamember:method
+      self 
+      name
+      salary```
+ ```instance variable: empCount``
+ 
+ 
+ 
+ ```
+ -----
+ 
+ ## 2: List Functions
+ 
+ ### Answer 2
+  ```python
+  
+  
+  
+  States.sort()
+  def addInOrder(L):
+  ```
+  -----
+    
+  ## 3: Looping over Lists
+  
+  ### Answer 3
+  
+  ```python
+  def addPrevious():
+    n=0
+    while n<=L.len
+      L[n]=L[n]/(n+1)
+  
+  ```
+  -----
+  
+  ## 4: Looping over Dictionaries
+  
+  ### Answer 4
+  
+  ```python
+  mon=1
+  while mon<=12
+    abb[]=months[mon]
+    abb.lower
+    abb_months[mon]=abb[0:2]
+    mon+=1
+  ```
+  -----
+  
+  ## 5: Min and Max
+  
+  ### Answer 5
+  
+  ```python
+  def ministats(L):
+    L=L[:]
+    count =1
+    x=L.len
+    i=0
+    whie count>0
+      while i<=x
+        if L[i]>L[i+1]
+          t=L[i+1]
+          L[i+1]=L[i]
+          L[i]=t
+          count +=1
+        else
+          count -=1
+     count=1
+   min=L[0]
+   max=L[-1]
+   avg=0
+   while i<=x
+    avg+= L[i]
+    i+=1
+  return (min, max, avg)
+      
+    
+  
+  ```
+  -----
+  
+  ## 6: Prime Class
+  
+  ### Answer 6
+  
+  ```python
+  class myPrimes()
+    def _init_(self):
+      
+    def addPrime
+    def removePrime
+    def printsPrimes
+  
+  ```
+  -----
+ 
