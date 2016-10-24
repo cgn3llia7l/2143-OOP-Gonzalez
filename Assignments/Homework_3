@@ -1,0 +1,69 @@
+Clara Gonzalez
+
+
+Questions
+1) What does Python print for each of the following:
+	johns_bag = Bag()
+	johns_bag.print_bag()
+	# what prints?
+
+	for color in [’blue’, ’red’, ’green’, ’red’]:
+	    johns_bag.add_skittle(Skittle(color))
+	johns_bag.print_bag()
+	# what prints?
+
+	s = johns_bag.take_skittle()
+	print(s.color)
+	# what prints?
+
+	print(johns_bag.number_sold)
+	# what prints?
+
+	print(Bag.number_sold)
+	# what prints?
+
+	soumyas_bag = Bag()
+	soumyas_bag.print_bag()
+
+	print(johns_bag.print_bag())
+	# what prints?
+
+	print(Bag.number_sold)
+	# what prints?
+
+	print(soumyas_bag.number_sold)
+	# what prints?
+	
+	Answer 1
+	>>[]
+	  ['blue', 'red', 'green', 'red']
+	  blue
+	  1
+	  1
+	  []
+	  ['red', 'green', 'red']
+	  None
+	  2
+	  2
+	
+	2) Write a new method for the Bag class called take color, which takes a color and removes (and returns) a Skittle of that color from the bag. If there is no Skittle of that color, then it returns None.
+	def take_color(self, color):
+
+	Answer 2
+	>>def take_color(self, color):
+	  	if color in self.skittles
+			skit=self.skittles,index(color)
+			return self.skitles.pop(skit)
+		else
+			return none
+	
+	3. Write a new method for the Bag class called take all, which takes all the Skittles in the current bag and prints the color of the each Skittle taken from the bag.
+	def take_all(self):
+
+	Answer 3
+	>>def take_all(self):
+		eat= self.skittles._len_()
+		num=0
+		for num < eat
+			return self.skittles.pop()
+			num+=1
