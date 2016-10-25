@@ -1,0 +1,69 @@
+# Homework- 4- OOP- Inheritance
+# Clara Gonzalez
+
+# Quesstions
+
+# 1). Implement the Cat class by inheriting from the Pet class. Make sure to use superclass methods wherever possible. In addition, add a lose_life method to the Cat class.
+class Cat(Pet):
+	def __init__(self, name, owner, lives=9):
+		Pet.__init__ (self, name, owner)
+		self.lives=lives
+	def talk(self):
+		print('meoow')
+	def lose_life(self):
+		if lives >= 1
+			self.lives -=1 
+		else
+			self.is_alive =False
+			
+# 2). Assume these commands are entered in order. What would Python output?
+
+
+class Foo(object):
+    def __init__(self, a):
+        self.a = a
+    def baz(self, val):
+        return val
+    def garply(self):
+        return self.baz(self.a)
+    
+
+class Bar(Foo):
+    
+    def __init__(self,a):
+    	a=1
+    	Foo.__init__(self, a)
+    def baz(self, val):
+    	Foo.baz(self, val)
+    def garply(self):
+    	Foo.garply(self)
+    
+    
+
+f = Foo(4)
+b = Bar(3)
+print(f.a)
+# prints what ?
+# prints 4
+
+print(b.a)
+# prints what ?
+# prints 1
+
+print(f.garply())
+# prints what ?
+# prints 4
+
+print(b.garply())
+# prints what ?
+# prins None
+
+b.a = 9
+print(b.garply())
+# prints what ?
+# prints None
+
+f.baz = lambda val: val * val
+print(f.garply())
+# prints what ?
+# prints 16
